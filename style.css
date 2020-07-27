@@ -1,0 +1,19 @@
+body {
+    background-color: pink;
+}
+
+.title {
+    color: darkcyan;
+    text-align: center;
+}
+
+.nav-link {
+    background-color: powderblue;
+}
+.container {
+    width: 50%;
+    background-color: lightgray;
+    border: 2px solid white;
+
+}
+
