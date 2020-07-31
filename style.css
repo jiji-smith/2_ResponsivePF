@@ -1,17 +1,19 @@
+/* Index.html */
+
 body {
     background-color: pink;
 }
 
-.title {
-    color: darkcyan;
+/* Question!! Center doesnt work */
+.nav-link {
+    font-style: italic;
     text-align: center;
 }
 
-.nav-link {
-    background-color: powderblue;
-}
-.container {
+
+.container  {
     width: 50%;
+    margin: auto;
     background-color: lightgray;
     border: 2px solid white;
 
@@ -21,67 +23,144 @@ h1 {
     padding: 10px;
 }
 
-
-#footer .box-bottom {
-    clear: both;
-    padding-top: 25px;
-    border-top: 1px solid #E6EAEA;
+.lead {
+  text-align: center;
 }
 
-#spcaer {
-    padding: 20px;
-}
 
-#footerQuestion {
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    color: beige;
-}
+    /* Social Media */
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
 
-  body, html {
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-github {
+      background: black;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+
+
+body, html {
     height: 100%;
   }
 
-  * {
-    box-sizing: border-box;
+
+
+/* aboutme.html */
+.card-title {
+  background-color:#D1CDCE;
+  border-radius: 5px;
+  border-width: 3px;;
+  color: #520932;
+}
+
+
+.card {
+  display: flex;
+  margin: auto;
+}
+
+.media {
+  margin: auto;
+  padding-left: 30px;
+  border: solid white;
+}
+
+
+
+
+/* Portfolio.html */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content h3 {
+  text-align: center;
+  color: darkslategrey;
+  padding-top: 10px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
   }
+}
 
-  .bg-image {
-    /* The image used */
-    background-image: url(/assets/IMG_7009.JPG);
-
-    /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
-
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-  }
+}
