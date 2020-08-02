@@ -3,18 +3,22 @@
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.
 
 <h2>File list</h2>
-1. index.html : main page
-2. aoubtme.html
-3. portfolio.html
-4. contact.html
-5. Assets : img files
+<ol>
+  <li>index.html : main page</li>
+  <li>aoubtme.html</li>
+  <li>portfolio.html</li>
+  <li>contact.html</li>
+  <li>Assets : img files</li>
+</ol>
 
 <h3>from Bootstrap</h3>
-- a nav bar
-- responsive layout
-- resposnsive image
-- jumbotron
-- card
+<ul>
+  <li>a nav bar</li>
+  <li>responsive layout</li>
+  <li>resposnsive image</li>
+  <li>jumbotron</li>
+  <li>card</li>
+</ul>
 
 
 <h3>index.html</h3>
@@ -28,9 +32,13 @@ This page shows portfolio pictures and explanations. Since I do not have actual 
 
 <h3>contact.html</h3>
 This page includes contact form from Bootstrap.
+<<<<<<< HEAD
 
 <br/>
 From this homework, I learned how to use Bootstrap or other existing code; also understand deeper of CSS functions.
 
+<br/>
+<br>
+From this homework, I learned how to use Bootstrap or other existing code; also understand deeper of CSS functions.
 <br/>
 <b>link to the website</b>: <a href="https://jiji-smith.github.io/HW2_ResponsivePF/">https://jiji-smith.github.io/HW2_ResponsivePF/</a>
