@@ -18,8 +18,9 @@ body, html {
 }
 
 
-.container  {
-    width: 50%;
+.contact-box  {
+    width: 70%;
+    padding: 20px;
     margin: auto;
     background-color: lightgray;
     border: 2px solid white;
