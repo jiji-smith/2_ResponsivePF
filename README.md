@@ -41,4 +41,4 @@ From this homework, I learned how to use Bootstrap or other existing code; also 
 <br>
 From this homework, I learned how to use Bootstrap or other existing code; also understand deeper of CSS functions.
 <br/>
-<b>link to the website</b>: <a href="https://jiji-smith.github.io/HW2_ResponsivePF/">https://jiji-smith.github.io/2_ResponsivePF/</a>
+<b>link to the website</b>: <a href="https://jiji-smith.github.io/2_ResponsivePF/">https://jiji-smith.github.io/2_ResponsivePF/</a>
